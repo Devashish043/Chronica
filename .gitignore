@@ -25,3 +25,36 @@ replay_pid*
 
 # Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
 .kotlin/
+# ---------------------------
+# C++ build artifacts
+# ---------------------------
+
+# Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Libraries
+*.dll
+*.so
+*.a
+*.lib
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+compile_commands.json
+Makefile
+
+# Debug folders
+Debug/
+Release/
+
+# Temporary files
+*.tmp
+*.log
